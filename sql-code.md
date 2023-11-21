@@ -12,39 +12,36 @@ This file houses the SQL code utilized to uncover insights and analytics for the
   
 
 
+a
+
+
+aa
+a
 
 
 
+aaa
+
+a
+
+aa
 
 
 
+a
+a
 
 
 
+a
+a
+a
+
+a
+a
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+a
 
 
 
