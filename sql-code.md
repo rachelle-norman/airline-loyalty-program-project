@@ -4,7 +4,7 @@
 This file houses the SQL code utilized to uncover insights and analytics for the Airline Loyalty Program Project. The SQL scripts provided here serve as a transparent record of the queries and transformations performed on the dataset and provided in my Data Analysis Report. I have included all SQL queries used and the resulting tables below, categorized by sections for streamlined navigation.
 
 ## Table of Contents
-  - [Section 5.1 Demographic Analysis](https://github.com/rachelle-norman/airline-loyalty-program-project/edit/main/sql-code.md#51-demographic-analysis)
+  - [Section 5.1 Demographic Analysis](#section-5.1-demographic-analysis)
       - [Provinces](#provinces)
       - [Cities](#cities)
       - [Marital Status and Education](#marital-status-and-education)
