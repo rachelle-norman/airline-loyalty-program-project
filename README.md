@@ -1,1 +1,1 @@
-# airline-loyalty-program-project
+# Airline Loyalty Program Project
