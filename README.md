@@ -1,4 +1,4 @@
-# Airline Loyalty Program Project
+# ✈ Airline Loyalty Program Project
 
 This repo contains the locations of all of the resources related to my Airline Loyalty Program Project.
 
