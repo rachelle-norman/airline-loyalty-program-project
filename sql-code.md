@@ -1,4 +1,4 @@
-# 🛫 Airline Loyalty Program Project - SQL Technical Reference
+# 🛫 SQL Technical Reference
 
 This file houses the SQL code utilized to uncover insights and analytics for this project. The SQL scripts provided here serve as a record of the queries and transformations performed on the dataset and provided in my Data Analysis Report.
 
