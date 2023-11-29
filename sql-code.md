@@ -8,7 +8,8 @@ This file houses the SQL code utilized to uncover insights and analytics for thi
       - [Cities](#cities)
       - [Marital Status and Education](#marital-status-and-education)
       - [Income](#income)
-  - [Section 4.3 Loyalty Points](#42-loyalty-points)
+  - [Section 4.2 Flight Booking Patterns](#42-flight-booking-patterns)
+  - [Section 4.3 Loyalty Points](#43-loyalty-points)
   
 ## 4.1 Demographic Analysis
 
