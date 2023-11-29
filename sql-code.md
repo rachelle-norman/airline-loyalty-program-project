@@ -3,13 +3,14 @@
 This file houses the SQL code utilized to uncover insights and analytics for this project. The SQL scripts provided here serve as a record of the queries and transformations performed on the dataset and provided in my Data Analysis Report.
 
 ## Table of Contents
-  - [Section 5.1 Demographic Analysis](#51-demographic-analysis)
+  - [Section 4.1 Demographic Analysis](#41-demographic-analysis)
       - [Provinces](#provinces)
       - [Cities](#cities)
       - [Marital Status and Education](#marital-status-and-education)
       - [Income](#income)
+  - [Section 4.3 Loyalty Points](#42-loyalty-points)
   
-## 5.1 Demographic Analysis
+## 4.1 Demographic Analysis
 
 ### Provinces
 
@@ -153,5 +154,36 @@ GROUP BY
 ORDER BY
 	percentage DESC
 
+
+```
+## 4.2 Flight Booking Patterns
+
+- The code below calculates the percentage of accompanied flights by dividing the number of them by the total flights after casting the data type as a decimal to ensure the division involves at least one decimal value so the result returns as a decimal as well.
+
+```sql
+
+SELECT
+	ROUND(SUM(c.flights_with_companions) / CAST(SUM(c.total_flights) AS DECIMAL(18,2))*100, 1) AS percentage
+FROM
+  customer_flight_activity c;
+
+```
+
+## 4.3 Loyalty Points
+
+- The code below calculates the percentage of points redeemed out of the total points accumulated and groups the percentages by loyalty card type.
+
+```sql
+
+SELECT
+	f.loyalty_card,
+	ROUND((SUM(c.points_redeemed)/SUM(c.points_accumulated))*100, 1)	
+FROM
+	flight_loyalty_history f
+		JOIN
+			customer_flight_activity c
+				ON f.loyalty_number=c.loyalty_number
+GROUP BY
+	f.loyalty_card
 
 ```
